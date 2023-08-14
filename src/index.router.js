@@ -10,7 +10,7 @@ import restaurantRouter from './modules/restaurant/restaurant.router.js'
 import userRouter from './modules/user/user.router.js'
 import { globalErrorHandling } from './utils/errorHandling.js'
 
-
+// init routes
 
 const initApp = (app, express) => {
     //convert Buffer Data
